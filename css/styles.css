@@ -27,8 +27,13 @@ header, footer{
 
 /* Work Experience
 ------------------------------------*/
-
+#Work-Experience{
+    background: #30e2ad;
+}
 
 
 /* Education
 ------------------------------------*/
+#Education{
+    background: #5e5c63;
+}
