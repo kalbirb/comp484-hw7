@@ -8,14 +8,23 @@
 /* Global styles 
 ------------------------------------*/
 .content-wrap{
-    width: 950px; 
+    max-width: 950px;
     margin: 0 auto; 
+    padding: 50px;
+    overflow: hidden;
+}
+.profile-img{
+    width: 300px;
+    border-radius:50%;
+    float: left;
+    margin-right: 30 px
 }
 body {
     background: #373f51;
     font-family: "Pangolin", cursive;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
 }
 
 
@@ -32,13 +41,22 @@ footer{
     font-family: "Crimson Text", serif;
     font-weight: 400;
     font-style: normal; 
+    text-align: center
 }
 
-h1,h2{
+h1{
     font-family: "Crimson Text", serif;
     font-weight: 600;
     font-style: normal; 
     font-size: 35px;
+    margin: 0;
+}
+h2{
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal; 
+    font-size: 35px;
+    margin-top: 0;
 }
 
 /* Work Experience
@@ -52,4 +70,8 @@ h1,h2{
 ------------------------------------*/
 #Education{
     background: #58a4b0;
+}
+
+.contact-info a{
+    padding: 10px; display: inline-block;
 }
