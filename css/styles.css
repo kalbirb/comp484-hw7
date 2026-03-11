@@ -14,7 +14,10 @@
     overflow: hidden;
 }
 .profile-img{
+    /* width: 300px; */
     border-radius:50%;
+    /* float: left; */
+    /* margin-right: 30 px; */
 }
 .column-narrow{
     width: 30%; 
@@ -62,7 +65,7 @@ h1{
     font-family: "Crimson Text", serif;
     font-weight: 600;
     font-style: normal; 
-    font-size: 35px;
+    font-size: 45px;
     margin: 0;
 }
 h2{
